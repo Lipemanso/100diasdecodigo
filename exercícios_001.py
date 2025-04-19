@@ -23,21 +23,32 @@
 
 # Função de média aritmética
 
-def media_aritmetica(a,b,c):
+# def media_aritmetica(a,b,c):
    
-    media = (a+b+c)/3
-    return media
+#     media = (a+b+c)/3
+#     return media
 
 
-print(media_aritmetica(1,2,3))
+# print(media_aritmetica(1,2,3))
 
 
-lista = [23,56,78,13]
+# lista = [23,56,78,13]
 
-def media2(arr):
-    tam = len(arr)
-    soma = sum(arr)
-    media = soma/tam
-    return media
+# def media2(arr):
+#     tam = len(arr)
+#     soma = sum(arr)
+#     media = soma/tam
+#     return media
 
-print(media2(lista))
+# print(media2(lista))
+
+
+# Qual numero é maior?
+
+def maior(a,b):
+    if a > b:
+        print(f'O número {a} é maior!')
+    else:
+        print(f'O número {b} é maior!')    
+
+print(maior(9,2))
