@@ -1,9 +1,16 @@
+# Importação de lib pessoal
+
+import meus_testes
+import modulos.utilitarios
+
 # Imprimir os números em ordem decrescente
 
 # for num in range(10,0,-1): # os parâmetros do range são(inicio,fim,step)
 #     print(num)
 
-
+soma = meus_testes.somar(5,6)
+print(soma)
+print(modulos.utilitarios.saudacao())
 
 # palavra = "Python"
 
@@ -29,3 +36,9 @@ for cont in range(1,11):
     result2 = tabuada * cont
     result = tabuada * contador
     print(f'{tabuada } x {cont} = {result2}')
+
+
+CARRO = "honda"
+carro = "fiat"
+
+CARRO = "pegeout"
